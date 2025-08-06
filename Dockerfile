@@ -1,5 +1,5 @@
 ARG BASE
-FROM node:14-alpine
+FROM BASE
 
 ENV IN_DOCKER=1
 
